@@ -7,7 +7,7 @@ def generate_solution(head, flow, material, description):
     
     # Call to OpenAI's API (replace 'YOUR_API_KEY' with your actual API key)
     response = openai.Completion.create(
-        engine="text-davinci-003",
+        engine="gpt-4-1106-preview	3",
         prompt=prompt,
         max_tokens=150
     )
