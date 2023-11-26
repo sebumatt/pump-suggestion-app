@@ -2,5 +2,5 @@ openai==0.10.2
 streamlit
 pandas
 numpy
-reportLab
+reportlab
 # any other libraries your app uses
