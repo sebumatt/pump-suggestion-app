@@ -3,5 +3,5 @@ streamlit
 pandas
 numpy
 reportlab
-FPDF
+fpdf
 # any other libraries your app uses
