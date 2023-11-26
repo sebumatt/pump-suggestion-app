@@ -10,7 +10,7 @@ openai.api_key = os.getenv('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'
     
     # Call to OpenAI's API (replace 'YOUR_API_KEY' with your actual API key)
     response = openai.Completion.create(
-        engine="gpt-4-1106-preview	3",
+        engine="gpt-4-1106-preview 3",
         prompt=prompt,
         max_tokens=150
     )
